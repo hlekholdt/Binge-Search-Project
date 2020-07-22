@@ -58,8 +58,7 @@ public class BetterBrowser implements Browser {
 		sa[0] = join(list, ".") + port;
 		return "http://" + join(Arrays.asList(sa), "/");
 	}
-
-	// REMOVE THIS
+	
 	public static String inverseReversePathURLOld(String urlString) {
 
 		String[] sa = urlString.split(" ");
